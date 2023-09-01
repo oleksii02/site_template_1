@@ -1,0 +1,29 @@
+
+  #GooglePay{
+    width: 297px;
+    height: 70px;
+    border: 2px solid #F35D5D;
+    border-radius: 23px;
+    background-image: url("../../svg/Google_play.png");
+
+    &:hover{
+      border: 2px solid #F35D5D;
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    &:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #F35D5D;
+      transform: translateY(4px);
+    }
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    #GooglePay{
+      width: 224px;
+      height: 52.795px;
+      border-radius: 14px;
+      background-image: url("../../svg/Google_play_mobail.png");
+
+    }
+  }

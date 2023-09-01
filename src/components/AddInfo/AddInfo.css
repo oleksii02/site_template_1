@@ -1,0 +1,219 @@
+.Additional {
+  margin: 0 auto 100px;
+}
+.Additional .Text {
+  margin: 0 auto 56px;
+  flex-shrink: 0;
+}
+.Additional .Text h2 {
+  color: #292D32;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Additional .Box {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.Additional .Box .Image {
+  background-size: cover;
+  height: 580.056px;
+  width: 700px;
+  background-image: url("../svg/Group 37419.png");
+  margin-top: 55px;
+}
+.Additional .Box .Image .Img {
+  position: absolute;
+  width: 348px;
+  height: 590px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #292D32;
+}
+.Additional .Box .Image .GroupSvg {
+  margin-top: -83px;
+}
+.Additional .Box .Image .GroupSvg span {
+  margin: 0 auto;
+  display: block;
+  width: 347px;
+  height: 590.135px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../svg/mobail.png");
+}
+.Additional .List {
+  height: 440.685px;
+  margin-top: 55px;
+}
+.Additional .List ul {
+  padding-left: 120px;
+}
+.Additional .List li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 71px;
+}
+.Additional .List div p {
+  margin: 0;
+  color: #292D32;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Additional .List div span {
+  color: rgba(41, 45, 50, 0.8);
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.Additional .List .number {
+  display: flex;
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 33px;
+}
+.Additional .List .number p {
+  width: 16px;
+  height: 38.32px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Additional .List .one {
+  background-color: #71357C;
+}
+.Additional .List .two {
+  background-color: #95D0D5;
+}
+.Additional .List .three {
+  background-color: #FD7E50;
+}
+.Additional .List .four {
+  background-color: #F35D5D;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  .Additional {
+    max-width: 768px;
+  }
+  .Additional .Text {
+    width: 653px;
+    margin: 0 0 55px 41px;
+  }
+  .Additional .Text h2 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+  }
+  .Additional .Box {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+  .Additional .Box .Image {
+    width: 768px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Additional .Box .Image .GroupSvg {
+    margin-top: 50px;
+  }
+  .Additional .Box .Image .GroupSvg span {
+    background-size: cover;
+    width: 347px;
+    height: 590.135px;
+  }
+  .Additional .Box .List {
+    min-height: 477px;
+    margin: 0 0 0 44px;
+  }
+  .Additional .Box .List div {
+    width: 100%;
+  }
+  .Additional .Box .List div p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .Additional .Box .List div span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .Additional .Box .List ul {
+    margin: 0;
+    padding: 0;
+  }
+  .Additional .Box .List .number {
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .Additional {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .Additional .Text {
+    max-width: 344px;
+    margin: 0 auto 41px;
+  }
+  .Additional .Text h2 {
+    margin: 0;
+  }
+  .Additional .Box {
+    flex-direction: column-reverse;
+    justify-content: start;
+    max-width: 375px;
+  }
+  .Additional .Box .Image {
+    max-width: 375px;
+    height: 485px;
+    background-position: center right -80px;
+  }
+  .Additional .Box .Image .GroupSvg {
+    margin-top: 50px;
+  }
+  .Additional .Box .Image .GroupSvg span {
+    background-size: cover;
+    width: 237.767px;
+    height: 404.365px;
+  }
+  .Additional .Box .List {
+    min-width: 348px;
+    min-height: 477px;
+    margin: 0 auto;
+  }
+  .Additional .Box .List div {
+    width: 246px;
+  }
+  .Additional .Box .List div p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Additional .Box .List div span {
+    font-weight: 400;
+  }
+  .Additional .Box .List ul {
+    margin: 0;
+    padding: 0;
+  }
+  .Additional .Box .List .number {
+    margin-right: 15px;
+  }
+}
+
+/*# sourceMappingURL=AddInfo.css.map */

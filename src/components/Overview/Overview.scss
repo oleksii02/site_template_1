@@ -1,0 +1,151 @@
+.Overview {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+
+  .Text {
+    margin-left: 80px;
+    width: 625px;
+
+    h3 {
+      width: 619px;
+      color: #292D32;
+      font-size: 38px;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .GroupText {
+      width: 625px;
+      color: rgba(41, 45, 50, 0.80);
+      font-family: 'Rubik', sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      overflow: hidden;
+    }
+
+    .Button {
+      background-color: #11ffee00;
+      padding: 0;
+      border: none;
+      display: flex;
+      width: 161px;
+      height: 28px;
+      margin-bottom: 52px;
+
+      p {
+        margin: 0 30px 0 0;
+        color: #292D32;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 28px;
+        width: 28px;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .More{
+      color: #F35D5D;
+      p{color: #F35D5D}
+    }
+    .Swap{
+
+      transform: rotate(180deg) ;
+    }
+    .show{
+        height: 444px;
+    }
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto 24px;
+
+    .Text {
+      margin-left: 24px;
+
+      h3 {
+        width: 653px;
+        margin: 91px 0 31px;
+        font-size: 28px;
+      }
+
+      .GroupText {
+        h4 {
+          font-weight: 600;
+          margin: 0;
+        }
+
+        p {
+          font-weight: 400;
+        }
+
+        width: 720px;
+        font-size: 20px;
+      }
+
+    }
+    .carousel {
+      width: 100%;
+    }
+
+  }
+
+
+  @media only screen and (max-device-width: 767px) {
+    max-width: 375px;
+    display: block;
+    margin: 90px auto;
+
+    .Text {
+      margin: 0;
+      max-width: 375px;
+
+      h3 {
+        width: 172px;
+        margin: 0 auto 21px;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .GroupText {
+        h4 {
+          font-weight: 600;
+          font-size: 20px;
+          margin: 0;
+        }
+
+        width: 341px;
+        margin: 0 auto;
+      }
+      .Button {
+        width: 341px;
+        margin: 12px auto;
+      }
+    }
+    .carousel {
+      width: 341px;
+      margin: 0 auto;
+    }
+
+  }
+
+}

@@ -1,0 +1,82 @@
+footer {
+  max-width: 1440px;
+  margin: 9px auto 69px;
+  padding-left: 80px;
+}
+footer .SocialMedia {
+  margin: 0 auto;
+}
+footer .SocialMedia img {
+  margin-right: 18px;
+  width: 40px;
+  height: 39.612px;
+}
+footer .SocialMedia img:hover {
+  cursor: pointer;
+}
+footer .SocialMedia #year {
+  min-width: 324px;
+}
+footer .SocialMedia p {
+  color: #292D32;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 16.8px */
+}
+footer .SocialMedia div {
+  display: flex;
+  width: 100%;
+}
+footer .SocialMedia div span {
+  margin-left: 742px;
+  display: flex;
+}
+footer .SocialMedia div span p {
+  margin-right: 25px;
+  color: #292D32;
+  width: 100px;
+}
+footer .SocialMedia div span p:hover {
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  footer {
+    max-width: 768px;
+    margin: 34px auto 39px;
+    padding-left: 25px;
+  }
+  footer .SocialMedia div span {
+    margin-left: 181px;
+  }
+  footer .SocialMedia div span p {
+    margin-right: 25px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  footer {
+    max-width: 375px;
+    margin: 0 auto 23px;
+    padding-left: 0;
+  }
+  footer .SocialMedia {
+    max-width: 343px;
+    flex-direction: column-reverse;
+  }
+  footer .SocialMedia div {
+    flex-direction: column-reverse;
+    width: 324px;
+  }
+  footer .SocialMedia div span {
+    margin-left: 255px;
+    margin-bottom: 25px;
+    position: absolute;
+    display: block;
+  }
+  footer .SocialMedia div span p {
+    margin-right: 0px;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

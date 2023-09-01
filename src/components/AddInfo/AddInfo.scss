@@ -1,0 +1,294 @@
+.Additional {
+
+  margin: 0 auto 100px;
+
+  .Text {
+    margin: 0 auto 56px;
+    flex-shrink: 0;
+
+    h2 {
+      color: #292D32;
+      text-align: center;
+      font-family: 'Rubik', sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+
+  }
+
+  .Box {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .Image {
+      background-size: cover;
+      height: 580.056px;
+      width: 700px;
+      background-image: url("../svg/Group 37419.png");
+      margin-top: 55px;
+
+
+      .Img {
+        position: absolute;
+        width: 348px;
+        height: 590px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        background: #292D32;
+
+      }
+
+      .GroupSvg {
+        margin-top: -83px;
+
+        span {
+          margin: 0 auto;
+          display: block;
+          width: 347px;
+          height: 590.135px;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url("../svg/mobail.png");
+
+        }
+      }
+    }
+  }
+
+
+
+  .List {
+    height: 440.685px;
+    margin-top: 55px;
+
+    ul{
+      padding-left: 120px;
+    }
+
+
+
+    li {
+      list-style-type: none;
+      display: flex;
+      margin-bottom: 71px;
+    }
+
+    div {
+      p {
+        margin: 0;
+        color: #292D32;
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      span {
+        color: rgba(41, 45, 50, 0.80);
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+    }
+
+    .number {
+      display: flex;
+      width: 59px;
+      height: 59px;
+      flex-shrink: 0;
+      border-radius: 14px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 33px;
+
+      p {
+        width: 16px;
+        height: 38.32px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: 'Rubik', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+
+    }
+
+    .one {
+      background-color: #71357C
+    }
+
+    .two {
+      background-color: #95D0D5
+    }
+
+    .three {
+      background-color: #FD7E50
+    }
+
+    .four {
+      background-color: #F35D5D
+    }
+
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+    max-width: 768px;
+    .Text {
+
+      width: 653px;
+      margin: 0 0 55px 41px;
+
+      h2 {
+        font-size: 28px;
+        text-align: left;
+        margin: 0;
+      }
+    }
+
+    .Box {
+      flex-direction: column-reverse;
+      justify-content: start;
+
+
+      .Image {
+        width: 768px;
+        height: 700px;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+
+
+
+        .GroupSvg {
+
+          margin-top: 50px;
+
+          span {
+            background-size: cover;
+            width: 347px;
+            height: 590.135px;
+
+          }
+        }
+
+      }
+
+      .List {
+
+        min-height: 477px;;
+        margin: 0 0 0 44px;
+
+        div {
+          width: 100%;
+
+          p {
+            font-size: 24px;
+            font-weight: 400;
+
+          }
+
+          span {
+            font-size: 20px;
+            font-weight: 400;
+
+
+          }
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        .number {
+          margin-right: 15px;
+        }
+      }
+    }
+
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    max-width: 375px;
+    margin: 0 auto;
+    .Text {
+      max-width: 344px;
+      margin: 0 auto 41px;
+
+      h2 {
+        margin: 0;
+      }
+    }
+
+    .Box {
+      flex-direction: column-reverse;
+      justify-content: start;
+      max-width: 375px;
+
+
+      .Image {
+        max-width: 375px;
+        height: 485px;
+        background-position: center right -80px;
+
+        .GroupSvg {
+
+          margin-top: 50px;
+
+          span {
+            background-size: cover;
+            width: 237.767px;
+            height: 404.365px;
+
+          }
+        }
+
+      }
+
+      .List {
+
+        min-width: 348px;
+        min-height: 477px;;
+        margin: 0 auto;
+
+        div {
+          width: 246px;
+
+          p {
+            font-size: 20px;
+            font-weight: 600;
+
+          }
+
+          span {
+
+            font-weight: 400;
+
+
+          }
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        .number {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}
+
+

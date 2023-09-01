@@ -1,0 +1,93 @@
+.Download{
+  margin: 81px auto 133px;
+  max-width: 1440px;
+  height: 205.014px;
+  background-image: url("../svg/doownload_back.jpeg");
+  display: flex;
+  background-position: top left;
+
+  h4{
+    padding: 40px 0 0 80px;
+    margin: 0;
+    width: 653px;
+    color: #292D32;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  h5{
+    margin: 0;
+    padding: 9px 0 0 80px;
+    width: 683px;
+    color: rgba(41, 45, 50, 0.80);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .GooglePlay{
+    margin: 64px 0 0 300px;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+    max-width: 768px;
+    height: 205px;
+    margin: 78px auto 87px;
+
+    h4{
+      width: 300px;
+      font-size: 32px;
+      padding: 43px 0 0 24px;
+    }
+    h5{
+      font-size: 20px;
+      width: 336px;
+      padding: 9px 0 0 24px;
+    }
+
+    .GooglePlay{
+      margin: 67px 0 0 87px;
+    }
+
+  }
+  @media only screen and (max-device-width: 767px) {
+    max-width: 381px;
+    height: 327px;
+    margin: 90px auto 64px;
+    display: block;
+
+    h4{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 28px;
+      font-weight: 500;
+      padding: 47px 0 14px 0;
+      margin: 0 auto;
+    }
+    h5{
+      font-size: 20px;
+      text-align: center;
+      width: 334px;
+      padding: 0;
+      font-weight: 400;
+      margin: 0 auto 59px;
+      display: flex;
+    }
+
+    .GooglePlay{
+      display: flex;
+      margin: 0;
+      justify-content: center;
+    }
+
+  }
+
+  }
+
+

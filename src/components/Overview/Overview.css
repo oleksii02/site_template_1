@@ -1,0 +1,136 @@
+.Overview {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+}
+.Overview .Text {
+  margin-left: 80px;
+  width: 625px;
+}
+.Overview .Text h3 {
+  width: 619px;
+  color: #292D32;
+  font-size: 38px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Overview .Text .GroupText {
+  width: 625px;
+  color: rgba(41, 45, 50, 0.8);
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  overflow: hidden;
+}
+.Overview .Text .Button {
+  background-color: rgba(17, 255, 238, 0);
+  padding: 0;
+  border: none;
+  display: flex;
+  width: 161px;
+  height: 28px;
+  margin-bottom: 52px;
+}
+.Overview .Text .Button p {
+  margin: 0 30px 0 0;
+  color: #292D32;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Overview .Text .Button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+}
+.Overview .Text .Button:hover {
+  cursor: pointer;
+}
+.Overview .Text .More {
+  color: #F35D5D;
+}
+.Overview .Text .More p {
+  color: #F35D5D;
+}
+.Overview .Text .Swap {
+  transform: rotate(180deg);
+}
+.Overview .Text .show {
+  height: 444px;
+}
+.Overview .carousel {
+  width: 50%;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  .Overview {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto 24px;
+  }
+  .Overview .Text {
+    margin-left: 24px;
+  }
+  .Overview .Text h3 {
+    width: 653px;
+    margin: 91px 0 31px;
+    font-size: 28px;
+  }
+  .Overview .Text .GroupText {
+    width: 720px;
+    font-size: 20px;
+  }
+  .Overview .Text .GroupText h4 {
+    font-weight: 600;
+    margin: 0;
+  }
+  .Overview .Text .GroupText p {
+    font-weight: 400;
+  }
+  .Overview .carousel {
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .Overview {
+    max-width: 375px;
+    display: block;
+    margin: 90px auto;
+  }
+  .Overview .Text {
+    margin: 0;
+    max-width: 375px;
+  }
+  .Overview .Text h3 {
+    width: 172px;
+    margin: 0 auto 21px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .Overview .Text .GroupText {
+    width: 341px;
+    margin: 0 auto;
+  }
+  .Overview .Text .GroupText h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+  }
+  .Overview .Text .Button {
+    width: 341px;
+    margin: 12px auto;
+  }
+  .Overview .carousel {
+    width: 341px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=Overview.css.map */

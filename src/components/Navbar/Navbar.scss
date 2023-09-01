@@ -1,0 +1,158 @@
+.Navbar {
+  font-family: 'Rubik', sans-serif;
+  height: auto;
+  background-image: url("../svg/retro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: center;
+  margin: 0 auto;
+  width: 100%;
+
+
+  .nav-wrapper {
+    display: flex;
+    margin: 0 0 0 80px;
+    align-items: center;
+    padding: 0;
+
+
+    a {
+      height: 38px;
+      text-decoration: none;
+      color: #292D32;
+      font-style: normal;
+      line-height: normal;
+    }
+  }
+
+
+
+  .right {
+    justify-content: right;
+    width: 100%;
+  }
+
+  .hide-on-med-and-down {
+    padding: 0;
+    height: 38px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: content-box;
+    align-items: center;
+    margin-right: 80px;
+
+
+    button {
+      color: #292D32;
+      font-family: 'Rubik',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-size: 16px;
+      list-style-type: none;
+      text-transform: none;
+      margin-right: 30px;
+
+    }
+  }
+
+  .NameProduct {
+    width: 100%;
+    height: 266px;
+    margin: 0 auto 50px;
+
+    h1 {
+      display: block;
+      margin: 98px auto 14px;
+      width: 1315px;
+      color: #292D32;
+      text-align: center;
+      font-size: 68px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+
+    h3 {
+      width: 683px;
+      margin: 0 auto 45px;
+      color: #292D32;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+
+    .nav-wrapper{
+      margin: 0 0 0 24px;
+    }
+    .brand-logo {
+      font-size: 22px;
+
+      h1 {
+        margin: 0;
+        font-size: 22px;
+      }
+    }
+
+    .NameProduct{
+      h1{
+        margin: 81px auto 20px;
+        font-size: 48px;
+        width: 677px;
+      }
+      h3{
+        width: 638px;
+        font-size: 24px;
+        margin: 0 auto 31px;
+
+      }
+      span{
+        margin-bottom: 79px;
+
+      }
+    }
+
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    .nav-wrapper{
+      margin: 0 0 0 16px;
+    }
+
+    .NameProduct{
+      h1{
+        margin: 88px auto 21px;
+        font-size: 48px;
+        font-weight: 700;
+        width: 338px;
+      }
+      h3{
+        width: 329px;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 auto 33px;
+
+
+      }
+      span{
+        margin-bottom: 42px;
+
+      }
+    }
+
+  }
+}

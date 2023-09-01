@@ -1,0 +1,121 @@
+.NewProduct {
+  margin-bottom: 125px;
+
+  .Text {
+    margin: 0 auto;
+    width: 653px;
+    height: 45.985px;
+    flex-shrink: 0;
+
+    h2 {
+      color: #292D32;
+      text-align: center;
+      font-family: 'Rubik', sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+  }
+
+  .Video {
+    width: 1062px;
+    height: 599.685px;
+    margin: 42px auto;
+
+
+    span {
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      border-radius: 20px;
+      background-size: cover;
+      width: 1062px;
+      height: 599.685px;
+      background-image: url('../svg/video.jpeg');
+      color: lightgray;
+      background-repeat: no-repeat;
+
+      .Play{
+        background-image: url("../svg/Play.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: 0 auto;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+    .Video {
+      margin-top: 37px;
+      max-width: 720px;
+      max-height: 424.386px;
+
+      span {
+        max-width: 720px;
+        height: 424.386px;
+
+        .Play{
+          width: 53.748px;
+          height: 53.748px;
+        }
+
+      }
+
+    }
+    .Text {
+      margin: 0 auto;
+      width: 653px;
+      height: 33px;
+
+      h2 {
+        font-size: 28px;
+
+      }
+
+    }
+  }
+
+  @media  only screen and (max-device-width: 767px) {
+    max-width: 375px;
+    margin: 0 auto 90px;
+    .Video {
+      margin-top: 22px;
+      max-width: 344px;
+      max-height: 202.762px;
+
+      span {
+        max-width: 344px;
+        height: 202.762px;
+        border-radius: 8px;
+
+        .Play{
+          width: 56.014px;
+          height: 56.014px;
+        }
+
+      }
+
+    }
+    .Text {
+      margin: 0 auto;
+      width: 312px;
+      height: 69px;
+
+      h2 {
+        font-size: 28px;
+        font-weight: 700;
+
+      }
+
+    }
+
+  }
+  }
+

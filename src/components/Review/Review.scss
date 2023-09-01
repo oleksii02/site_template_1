@@ -1,0 +1,287 @@
+.Review {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  h5 {
+    margin: 0;
+    width: 218px;
+    color: #292D32;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .Form {
+    margin-left: 80px;
+    width: 368px;
+    height: 351px;
+
+    p {
+      margin: 16px 0 6px 0;
+      width: 368px;
+      color: rgba(41, 45, 50, 0.70);
+      font-family: 'Rubik', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .Error {
+      color: red;
+
+    }
+
+    input {
+      margin: 0;
+      padding: 0 0 0 20px;
+      width: 368px;
+      height: 50px;
+      background: #F5F5F5;
+      border: none;
+
+      &:focus-visible {
+        outline: 1px solid #F35D5D;
+      }
+
+      &:hover {
+        outline: 1px solid #F35D5D;
+      }
+    }
+
+    textarea {
+      font-family: 'Rubik', sans-serif;
+      padding: 16px 0 0 20px;
+      max-width: 368px;
+      min-width: 368px;
+      height: 150px;
+      min-height: 50px;
+      background: #F5F5F5;
+      border: none;
+
+      &:focus-visible {
+        outline: 1px solid #F35D5D;
+      }
+
+      &:hover {
+        outline: 1px solid #F35D5D;
+      }
+
+    }
+
+    button {
+      border-radius: 0;
+      margin: 38px 0 200px 0;
+      width: 368px;
+      height: 50px;
+      display: inline-flex;
+      padding: 14px 43px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: #F35D5D;
+      color: #FFF;
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      border: none;
+
+      &:hover {
+        border: 2px solid #F35D5D;
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      &:disabled {
+        opacity: 1;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .Info {
+    margin: 0 0 0 178px;
+    width: 100%;
+
+    h3 {
+      margin: 0;
+      width: 769px;
+      color: #292D32;
+      font-size: 38px;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    h4 {
+      margin: 11px 0 0 0;
+      width: 530px;
+      height: 53px;
+      color: rgba(41, 45, 50, 0.80);
+      font-family: 'Rubik', sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+
+    div {
+      width: 716.308px;
+    }
+
+    .background-image {
+      display: block;
+      height: 596px;
+      width: 814px;
+      flex-shrink: 0;
+      background-image: url("../svg/Group_png_3.png");
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+    max-width: 768px;
+
+    h5 {
+      width: 348px;
+      font-size: 24px;
+    }
+
+    .Form {
+      margin-left: 24px;
+      width: 396px;
+      height: 530px;
+
+      p {
+        width: 348px;
+      }
+
+
+      input {
+        padding: 0 0 0 24px;
+        width: 348px;
+      }
+
+      textarea {
+        width: 328px;
+        max-width: 328px;
+        min-width: 348px;
+        padding: 15px 0 0 20px;
+        min-height: 50px;
+
+
+      }
+
+      button {
+        margin: 29px 0 200px 0;
+        width: 348px;
+      }
+
+    }
+    .Info {
+      margin: 0 0 0 24px;
+      width: 100%;
+
+      h3 {
+        width: 343px;
+        color: #292D32;
+        font-size: 28px;
+      }
+
+      h4 {
+        margin: 17px 0 0 0;
+        width: 343px;
+        height: 65px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      div {
+        width: 372px;
+      }
+
+      .background-image {
+        display: block;
+        width: 343px;
+        height: 373px;
+        flex-shrink: 0;
+        background-image: url("../svg/Group_png_4.png");
+        background-position: right bottom -75px;
+      }
+    }
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    flex-direction: column-reverse;
+    max-width: 375px;
+
+    h5 {
+     display: none;
+    }
+
+    .Form {
+      margin-top: 20px;
+      margin-left: 17px;
+      width: 343px;
+      height: 500px;
+
+
+      p {
+        width: 341px;
+      }
+
+
+      input {
+        padding: 0 0 0 24px;
+        width: 341px;
+      }
+
+      textarea {
+        width: 301px;
+        max-width: 301px;
+        min-width: 341px;
+        padding: 15px 0 0 20px;
+        min-height: 50px;
+
+
+      }
+
+      button {
+        margin: 29px 0 39px 0;
+        width: 341px;
+      }
+
+    }
+    .Info {
+      margin: 0 0 0 17px;
+      max-width: 343px;
+      h3 {
+        width: 343px;
+        font-size: 28px;
+
+      }
+
+      h4 {
+        width: 343px;
+        height: 65px;
+
+      }
+
+      div {
+        display: none;
+      }
+
+      .background-image {
+
+      }
+    }
+  }
+  }
+
+
+
