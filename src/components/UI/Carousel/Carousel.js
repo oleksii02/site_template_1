@@ -6,19 +6,27 @@ import 'swiper/css/navigation';
 import './carousel.css'
 
 
-import {Autoplay, Mousewheel, Swiper} from "swiper";
+import {Autoplay, Mousewheel, Navigation, Swiper, HashNavigation} from "swiper";
 import {Pagination} from "swiper";
+
+
 
 
 function Carousel() {
 
+
+
     useEffect(() => {
+
          new Swiper(".swiper", {
             //  autoplay: {
             //      delay: 2500,
             //      disableOnInteraction: false,
             //   },
-            modules: [Pagination, Autoplay, Mousewheel],
+            modules: [Pagination, Autoplay, Mousewheel, Navigation,HashNavigation],
+             hashNavigation: {
+                 watchState: true,
+             },
             mousewheel: true,
             centeredSlides: true,
             effect: "coverflow",
@@ -50,23 +58,28 @@ function Carousel() {
 
                     className="swiper">
                     <div className="swiper-wrapper">
-                        <div className="swiper-slide swiper-slide--one">
+                        <div className="swiper-slide swiper-slide--one "
+                        data-hash="slide1">
 
                         </div>
 
-                        <div className="swiper-slide swiper-slide--two">
+                        <div className="swiper-slide swiper-slide--two"
+                        data-hash="slide2">
 
                         </div>
 
-                        <div className="swiper-slide swiper-slide--three">
+                        <div className="swiper-slide swiper-slide--three"
+                        data-hash="slide3">
 
                         </div>
 
-                        <div className="swiper-slide swiper-slide--four">
+                        <div className="swiper-slide swiper-slide--four"
+                        data-hash="slide4">
 
                         </div>
 
-                        <div className="swiper-slide swiper-slide--five">
+                        <div className="swiper-slide swiper-slide--five"
+                        data-hash="slide5">
 
                         </div>
                     </div>
